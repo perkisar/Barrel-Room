@@ -1,0 +1,6 @@
+C:\Users\sarah.VANCOUVERBOLT\Desktop\Current Projects\Websites\Barrel Room\Barrel Room\bin\Barrel Room.dll.config
+C:\Users\sarah.VANCOUVERBOLT\Desktop\Current Projects\Websites\Barrel Room\Barrel Room\bin\Barrel Room.dll
+C:\Users\sarah.VANCOUVERBOLT\Desktop\Current Projects\Websites\Barrel Room\Barrel Room\bin\Barrel Room.pdb
+C:\Users\sarah.VANCOUVERBOLT\Desktop\Current Projects\Websites\Barrel Room\Barrel Room\obj\Debug\Barrel Room.csprojResolveAssemblyReference.cache
+C:\Users\sarah.VANCOUVERBOLT\Desktop\Current Projects\Websites\Barrel Room\Barrel Room\obj\Debug\Barrel Room.dll
+C:\Users\sarah.VANCOUVERBOLT\Desktop\Current Projects\Websites\Barrel Room\Barrel Room\obj\Debug\Barrel Room.pdb

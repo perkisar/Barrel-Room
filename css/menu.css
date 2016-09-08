@@ -1,0 +1,128 @@
+﻿.nav-tabs > li > a {
+    font-size:13px;
+}
+
+.section h2 {
+    font-size:30px;
+}
+
+.tab-content p {
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size:16px;
+    padding-left:20px;
+}
+
+.tab-content h3 {
+    font-family: 'Cinzel', serif;
+    font-weight:700;
+    font-size:15px;
+}
+
+.tab-top div, .tab-bottom div {
+    display:block;
+    float:left;
+    height:215px;
+    width:100%;
+}
+
+.flex {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.menuItem {
+    max-width:215px;
+    height:215px;
+    width:100%;
+    margin:0 auto;
+    padding:15px;
+    flex-grow:1;
+}
+
+.menuItem:nth-child(1) {
+  background-image: url("../img/accordian/food.jpg");
+}
+.menuItem:nth-child(2) {
+  background-image: url("../img/accordian/food.jpg");
+}
+.menuItem:nth-child(3) {
+  background-image: url("../img/accordian/food.jpg");
+}
+.menuItem:nth-child(4) {
+  background-image: url("../img/accordian/food.jpg");
+}
+.menuItem:nth-child(5) {
+  background-image: url("../img/accordian/food.jpg");
+}
+.menuItem:nth-child(6) {
+  background-image: url("../img/accordian/food.jpg");
+}
+.menuItem:nth-child(7) {
+  background-image: url("../img/accordian/food.jpg");
+}
+.menuItem:nth-child(8) {
+  background-image: url("../img/accordian/food.jpg");
+}
+
+
+@media (min-width:320px) { /* smartphones, iPhone, portrait 480x320 phones */ 
+    .ubrContainer {
+        padding:20px;
+    }
+}
+@media (min-width:481px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+    .nav-tabs > li > a {
+        font-size:13px;
+    }
+    .section h2 {
+        font-size:50px;
+    }
+}
+@media (min-width:641px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+    .nav-tabs > li > a {
+        font-size:18px;
+    }
+}
+@media (min-width:961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    .nav-tabs > li > a {
+        font-size:20px;
+    }
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+
+}
+@media (min-width:1281px) { /* hi-res laptops and desktops */ 
+    .ubrContainer {
+        padding:50px;
+    }
+
+    .nav-tabs > li > a {
+        font-size:25px;
+    }
+}
+
+    .ubrContainer{
+        max-width:900px;
+        width:100%;
+        margin:0 auto;
+        display:block;
+    }
+
+    .nav-tabs > li, .nav-pills > li {
+        float:none;
+        display:inline-block;
+        *display:inline; /* ie7 fix */
+        zoom:1; /* hasLayout ie7 trigger */
+    }
+
+    .nav-tabs, .nav-pills {
+        text-align:center;
+    }
+
+    .tab-content{
+        background: rgb(242, 209, 176);
+        min-height:600px;
+        height:100%;
+        background-color:rgba(176, 152, 128,0.2);
+    }
+}

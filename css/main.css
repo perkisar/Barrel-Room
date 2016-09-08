@@ -1,0 +1,119 @@
+﻿body, html {
+    width:100%;
+    height:100%;
+}
+p, b, i {
+    font-family:'Cinzel', serif;
+    font-size:18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Great Vibes', cursive;
+}
+
+.shadow {
+    text-shadow:1px 2px 2px #333333 ;
+}
+
+#fullpage {
+    height:100%;
+    width:100%;
+}
+
+.section {
+    height:100%;
+    width:100%;
+}
+
+.section h2 {
+    text-align:center;
+    font-size:50px;
+    margin-top:50px;
+}
+
+.fullWidth {
+        width:100%;
+        height:100%;
+        background:url(https://s3.amazonaws.com/pix-media/blog/324/wine-bottle-sizes-4.jpg);
+        background-size:cover;
+    }
+
+@media (min-width:320px) { 
+    /* smartphones, iPhone, portrait 480x320 phones */ 
+    h1 {
+        font-size:15vw;
+    }
+    
+    .fullWidth {
+        width:100%;
+        height:100%;
+        background:url(https://s3.amazonaws.com/pix-media/blog/324/wine-bottle-sizes-4.jpg);
+        background-size:cover;
+    }
+}
+@media (min-width:481px) { 
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+    .fullWidth {
+        width:100%;
+        height:100%;
+        background:url(https://s3.amazonaws.com/pix-media/blog/324/wine-bottle-sizes-4.jpg);
+        background-size:cover;
+    }
+}
+@media (min-width:641px) {
+     /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+     .fullWidth {
+        width:100%;
+        height:100%;
+        background:url(https://s3.amazonaws.com/pix-media/blog/324/wine-bottle-sizes-4.jpg);
+        background-size:cover;
+    }
+}
+@media (min-width:641px) and (orientation: landscape) {
+     /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+     .fullWidth {
+        width:100%;
+        height:100%;
+        background:url(https://s3.amazonaws.com/pix-media/blog/324/wine-bottle-sizes-4.jpg);
+        background-size:cover;
+    }
+    h1 {
+        font-size:8vw;
+    }
+}
+
+
+@media (min-width:961px) { 
+    /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+
+}
+@media (min-width:1025px) { 
+    /* big landscape tablets, laptops, and desktops */ 
+
+
+}
+@media (min-width:1281px) { 
+    /* hi-res laptops and desktops */ 
+    h1 {
+        font-size:8vw;
+    }
+    
+    .fullWidth {
+        width:100%;
+        height:100%;
+        background:url(https://s3.amazonaws.com/pix-media/blog/324/wine-bottle-sizes-4.jpg);
+        background-size:cover;
+    }
+}
+
+#about {
+    display: flex;
+    align-items:center;
+    /*max-height:250px;*/
+    /*background:url(http://www.richardslawgroup.com/rlg/wp-content/uploads/2013/02/pale_tan.jpg);
+    background-size:cover;*/
+}
+
+.menuTable tr {
+    font-family:
+}
